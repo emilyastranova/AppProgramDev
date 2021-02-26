@@ -25,7 +25,7 @@ def bmi_calculator(height, weight):
         weightStatus = "Uncategorized"
 
     # Display BMI
-    return str("\nYour BMI is " + str(bodyMassIndex) + " and is in the " + str(weightStatus) + " category\n")
+    return str("\nYour BMI is " + str(round(bodyMassIndex)) + " and is in the " + str(weightStatus) + " category\n")
 
 def main():
     print("The Body Mass Index Calculator\n")
